@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ProjetoAMSI</string>
+    <string name="str_treino" />
+    <string name="str_comecar_treino">Começar a treinar</string>
+    <string name="str_plano_nutricional">Plano nutricional</string>
+    <string name="str_avaliacoes">Avaliações</string>
+    <string name="str_salas_exercicio">Salas de exercício</string>
+    <string name="str_mensagens">Mensagens</string>
+</resources>
