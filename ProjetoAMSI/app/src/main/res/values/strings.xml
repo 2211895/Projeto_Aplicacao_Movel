@@ -6,4 +6,10 @@
     <string name="str_avaliacoes">Avaliações</string>
     <string name="str_salas_exercicio">Salas de exercício</string>
     <string name="str_mensagens">Mensagens</string>
+    <string name="PolarName">Polar Fitness Solutions</string>
+    <string name="ouString">ou</string>
+    <string name="RegistarString">Registar</string>
+    <string name="LoginString" />
+    <string name="LoginStr">Login</string>
+    <string name="RegistarContaString">Registar Conta</string>
 </resources>

@@ -1,4 +1,4 @@
-package amsi.dei.estg.ipleiria.projetoamsi.vistas;
+package amsi.dei.estg.ipleiria.projetoamsi.vistas.views.messages;
 
 import androidx.appcompat.app.AppCompatActivity;
 

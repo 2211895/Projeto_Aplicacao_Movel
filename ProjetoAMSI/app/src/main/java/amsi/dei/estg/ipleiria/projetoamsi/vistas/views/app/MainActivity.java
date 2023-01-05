@@ -1,4 +1,4 @@
-package amsi.dei.estg.ipleiria.projetoamsi;
+package amsi.dei.estg.ipleiria.projetoamsi.vistas.views.app;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,11 +7,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import amsi.dei.estg.ipleiria.projetoamsi.vistas.Selecao_avaliacao;
-import amsi.dei.estg.ipleiria.projetoamsi.vistas.Selecao_mensagens;
-import amsi.dei.estg.ipleiria.projetoamsi.vistas.Selecao_nutricao;
-import amsi.dei.estg.ipleiria.projetoamsi.vistas.Selecao_salas;
-import amsi.dei.estg.ipleiria.projetoamsi.vistas.Selecao_treino;
+import amsi.dei.estg.ipleiria.projetoamsi.R;
+import amsi.dei.estg.ipleiria.projetoamsi.vistas.views.evaluation.Selecao_avaliacao;
+import amsi.dei.estg.ipleiria.projetoamsi.vistas.views.messages.Selecao_mensagens;
+import amsi.dei.estg.ipleiria.projetoamsi.vistas.views.nutrition.Selecao_nutricao;
+import amsi.dei.estg.ipleiria.projetoamsi.vistas.views.Selecao_salas;
+import amsi.dei.estg.ipleiria.projetoamsi.vistas.views.workout.Selecao_treino;
 
 public class MainActivity extends AppCompatActivity {
     private Button btn_treino, btn_nutricao, btn_avaliacao, btn_salas, btn_mensagens;

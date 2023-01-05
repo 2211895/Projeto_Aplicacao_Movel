@@ -1,10 +1,12 @@
-package amsi.dei.estg.ipleiria.projetoamsi;
+package amsi.dei.estg.ipleiria.projetoamsi.vistas.views.app;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+
+import amsi.dei.estg.ipleiria.projetoamsi.R;
 
 public class SplashScreen extends AppCompatActivity {
 
