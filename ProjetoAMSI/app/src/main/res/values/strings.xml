@@ -12,4 +12,6 @@
     <string name="LoginString" />
     <string name="LoginStr">Login</string>
     <string name="RegistarContaString">Registar Conta</string>
+    <string name="generoString" />
+    <string name="GeneroStr">Género</string>
 </resources>
