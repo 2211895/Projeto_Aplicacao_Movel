@@ -11,6 +11,6 @@ public class Selecao_avaliacao extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_selecao_avalicao);
+        setContentView(R.layout.activity_show_evaluations);
     }
 }

@@ -11,6 +11,6 @@ public class Selecao_nutricao extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_selecao_nutricao);
+        setContentView(R.layout.activity_show_nutrition);
     }
 }

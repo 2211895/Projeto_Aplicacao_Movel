@@ -37,14 +37,6 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".vistas.views.Selecao_salas"
-            android:exported="false"
-            android:theme="@style/Theme.AppCompat.NoActionBar">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
             android:name=".vistas.views.nutrition.Selecao_nutricao"
             android:exported="false"
             android:theme="@style/Theme.AppCompat.NoActionBar"/>

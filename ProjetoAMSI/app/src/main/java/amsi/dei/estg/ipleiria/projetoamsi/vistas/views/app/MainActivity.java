@@ -11,7 +11,6 @@ import amsi.dei.estg.ipleiria.projetoamsi.R;
 import amsi.dei.estg.ipleiria.projetoamsi.vistas.views.evaluation.Selecao_avaliacao;
 import amsi.dei.estg.ipleiria.projetoamsi.vistas.views.messages.Selecao_mensagens;
 import amsi.dei.estg.ipleiria.projetoamsi.vistas.views.nutrition.Selecao_nutricao;
-import amsi.dei.estg.ipleiria.projetoamsi.vistas.views.Selecao_salas;
 import amsi.dei.estg.ipleiria.projetoamsi.vistas.views.workout.Selecao_treino;
 
 public class MainActivity extends AppCompatActivity {
