@@ -1,4 +1,4 @@
-package amsi.dei.estg.ipleiria.projetoamsi.vistas.views.app;
+package amsi.dei.estg.ipleiria.projetoamsi.vistas.mvc.app;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,10 +8,9 @@ import android.view.View;
 import android.widget.Button;
 
 import amsi.dei.estg.ipleiria.projetoamsi.R;
-import amsi.dei.estg.ipleiria.projetoamsi.vistas.views.evaluation.Selecao_avaliacao;
-import amsi.dei.estg.ipleiria.projetoamsi.vistas.views.messages.Selecao_mensagens;
-import amsi.dei.estg.ipleiria.projetoamsi.vistas.views.nutrition.Selecao_nutricao;
-import amsi.dei.estg.ipleiria.projetoamsi.vistas.views.workout.Selecao_treino;
+import amsi.dei.estg.ipleiria.projetoamsi.vistas.mvc.evaluation.Selecao_avaliacao;
+import amsi.dei.estg.ipleiria.projetoamsi.vistas.mvc.nutrition.Selecao_nutricao;
+import amsi.dei.estg.ipleiria.projetoamsi.vistas.mvc.workout.Selecao_treino;
 
 public class MainActivity extends AppCompatActivity {
     private Button btn_treino, btn_nutricao, btn_avaliacao, btn_salas, btn_mensagens;
@@ -47,22 +46,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intentAvaliacao = new Intent(MainActivity.this, Selecao_avaliacao.class);
                 startActivity(intentAvaliacao);
-            }
-        });
-
-        btn_salas.setOnClickListener((new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intentSalas = new Intent(MainActivity.this, Selecao_salas.class);
-                startActivity(intentSalas);
-            }
-        }));
-
-        btn_mensagens.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intentMensagens = new Intent(MainActivity.this, Selecao_mensagens.class);
-                startActivity(intentMensagens);
             }
         });
     }

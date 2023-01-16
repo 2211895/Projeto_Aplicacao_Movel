@@ -1,4 +1,4 @@
-package amsi.dei.estg.ipleiria.projetoamsi.vistas.views.nutrition;
+package amsi.dei.estg.ipleiria.projetoamsi.vistas.mvc.nutrition;
 
 import androidx.appcompat.app.AppCompatActivity;
 
